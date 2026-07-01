@@ -1,6 +1,6 @@
 /* hero-background */
 .hero-background .hero-content {
-    margin: 150px 70px 150px;
+    margin: 150px 360px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,6 +167,9 @@
 }
 
 @media (max-width: 768px) {
+    .hero-background .hero-content {
+            margin: 150px 70px 150px;
+        }
     .hero-content h1 {
         font-size: 48px;
 
