@@ -1,0 +1,268 @@
+/* about-hero */
+.about-hero {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: var(--background);
+}
+
+.about-hero h1 {
+    color: var(--white);
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-family: var(--space-grotesk);
+}
+
+.about-hero p {
+    color: var(--light-color);
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.about-hero nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    color: var(--white);
+}
+
+.about-hero nav li {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.about-hero .nav-link {
+    text-decoration: none;
+    color: var(--light-color);
+    transition: 0.5s;
+}
+
+.about-hero .nav-link:hover {
+    color: var(--white);
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width:425px) {
+.about-hero {
+        padding: 100px 16px;
+    }
+
+    .about-hero h1 {
+        font-size: 30px;
+    }
+
+    .about-hero p{
+        font-size: 17px;
+        text-align: center;
+    }
+}
+
+/* end */
+
+.about-mission {
+    padding: 100px 70px;
+}
+
+.about-mission-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.about-mission-col:first-child {
+    padding-top: 150px;
+}
+
+.about-mission-col h4 {
+    display: block;
+    margin-bottom: 15px;
+    width: fit-content;
+    font-weight: 400;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    background: var(--light-color);
+}
+
+.about-mission-col h2 {
+    padding-bottom: 20px;
+    width: fit-content;
+    font-weight: 800;
+    color: var(--black);
+    text-transform: capitalize;
+    font-family: var(--space-grotesk);
+    font-size: 35px;
+}
+
+.about-mission-col em {
+    display: block;
+    padding-bottom: 20px;
+    font-weight: 500;
+    color: var(--background);
+    font-family: "inter", system-ui, sans-serif;
+    font-size: 18px;
+}
+
+.about-mission-col p {
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+.about-mission-col .avatar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 1024px) {
+    .about-mission {
+        padding: 100px 30px;
+    }
+
+    .about-mission-col:first-child {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .about-mission {
+        padding: 100px 20px;
+    }
+
+    .about-mission-row {
+        grid-template-columns: 1fr;
+    }
+
+    .about-mission-col .avatar img {
+        width: 100%;
+    }
+}
+
+/* end */
+
+/* about-values */
+.about-values {
+    background: var(--light-background);
+    padding: 20px 70px 100px;
+}
+
+.about-values-row {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.values-card {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: var(--tw-shadow-color);
+}
+
+.values-card .values-icon {
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--light-color);
+    color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.values-card h3 {
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: var(--space-grotesk);
+    font-weight: 600;
+}
+
+.values-card p {
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width:768px) {
+    .about-values {
+        padding: 20px 20px 100px;
+    }
+}
+
+@media (max-width:425px) {
+    .about-values {
+        padding: 20px 16px 100px;
+    }
+
+    .about-values-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* end */
+
+/* about_hire-me */
+.about_hire-me {
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about_hire-me .heading {
+    padding-bottom: 30px;
+
+    h2 {
+        color: var(--white);
+    }
+
+    p {
+        color: var(--light-color);
+    }
+}
+
+.about_hire-me .cta-btn {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background: var(--white);
+    color: var(--primary-color);
+    transition: 0.5s;
+}
+
+.about_hire-me .cta-btn:hover {
+    background: var(--light-color);
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 425px) {
+    .about_hire-me {
+        padding: 70px 16px;
+    }
+
+    .about_hire-me .heading {
+        padding-top: 0px;
+    }
+}
+
+/* end */

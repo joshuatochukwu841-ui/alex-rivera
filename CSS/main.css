@@ -1,0 +1,88 @@
+/*inter-Grotesk-fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --black: #111827;
+    --white: #fff;
+    --light-color: #f4f4f5;
+    --light-background: #f9fafb;
+    --gray-white:#E5E7EB;
+    --primary-color: #4b5563;
+    --secondary-color: #7c3bed;
+    --secondary-lg-color: #ab7aff;
+    --dark-bg-col: #6418e7;
+    --tw-shadow-color: 0 4px 6px -4px #0000001a;
+    --size-md: 20px;
+    --size-sm: 10px;
+    --color-blue-700: #452ccf;
+    --space-grotesk: "Space grotesk", system-ui, sans-serif;
+    --background: #52525b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "inter", system-ui, sans-serif;
+    /* font-family: "Space grotesk",system-ui, sans-serif;  */
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.heading {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.heading em {
+    font-style: normal;
+    color: var(--secondary-color);
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 15px;
+    background: #3609ff18;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-family: var(--space-grotesk);
+}
+
+.heading h2 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: var(--space-grotesk);
+}
+
+.heading p {
+    font-size: 18px;
+    color: var(--primary-color);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+@media (max-width: 320px) {
+    .heading h2{
+        font-size: 30px;
+    }
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+section {
+    padding: 0px 70px 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}

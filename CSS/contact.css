@@ -1,0 +1,254 @@
+/* contact-hero */
+.contact-hero {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background: var(--background);
+}
+
+.contact-hero h1 {
+    color: var(--white);
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-family: var(--space-grotesk);
+}
+
+.contact-hero p {
+    color: var(--light-color);
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.contact-hero nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    color: var(--white);
+}
+
+.contact-hero nav li {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.contact-hero .nav-link {
+    text-decoration: none;
+    color: var(--light-color);
+    transition: 0.5s;
+}
+
+.contact-hero .nav-link:hover {
+    color: var(--white);
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .contact-hero h1 {
+        font-size: 30px;
+    }
+
+    .contact-hero p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .contact-hero {
+        padding: 80px 16px;
+    }
+
+    .contact-hero p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/* end */
+
+/* lets-connect */
+.lets-connect {
+    padding: 100px 70px 0px;
+}
+
+.lets-connect .row {
+    display: grid;
+    grid-template-columns: 2fr 500px;
+    gap: 50px;
+}
+
+.col form {
+    padding: 20px 0px 30px;
+}
+
+.col form .first-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+}
+
+.input-box label {
+    display: block;
+    padding-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input-box input {
+    padding: 15px 16px;
+    display: block;
+    color: var(--black);
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #b6b6b6;
+}
+
+.input-box textarea {
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #b6b6b6;
+    color: var(--black);
+    font-size: 16px;
+}
+
+.input-box input::placeholder {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.input-box textarea::placeholder {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.input-box input:focus {
+    border: 1px solid var(--secondary-color);
+
+}
+
+.input-box textarea:focus {
+    border: 1px solid var(--secondary-color);
+
+}
+
+.col form button {
+    padding: 10px 20px;
+    display: block;
+    margin-top: 25px;
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 500;
+    border-radius: 8px;
+    background: var(--background);
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    transition: 0.4s ease;
+
+    svg {
+        width: 20px;
+        height: 20px;
+        display: flex;
+    }
+}
+
+.col form button:hover {
+    background: #2f2f31;
+}
+
+.lets-connect .col h3 {
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--space-grotesk);
+    color: var(--black);
+}
+
+.lets-connect .col p {
+    font-size: 16px;
+    color: var(--primary-color);
+    padding-bottom: 20px;
+}
+
+.lets-connect .col .appointment-col {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 0px;
+}
+
+.appointment-col .svg-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: var(--gray-white);
+    color: var(--primary-color);
+}
+
+.appointment-col em {
+    padding: 20px 0px 5px;
+    display: block;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--space-grotesk);
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 1024px) {
+    .lets-connect {
+        padding: 100px 30px 0px;
+    }
+
+    .lets-connect .row {
+        grid-template-columns: 2fr 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lets-connect {
+        padding: 100px 20px 0px;
+    }
+
+    .lets-connect .row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 425px) {
+    .lets-connect {
+        padding: 100px 16px 0px;
+    }
+
+    .lets-connect .row {
+        grid-template-columns: 1fr;
+        padding-bottom: 50px;
+    }
+
+    .col form .first-col {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+}
+
+/* end */
