@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
     <!-- layout -->
     <link rel="stylesheet" href="./CSS/layout.css">
 
@@ -21,6 +22,9 @@
 
     <!-- home -->
     <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- AOS JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Alex Rivera</title>
 </head>
@@ -179,7 +183,7 @@
     <!-- about-section -->
     <section class="about-section">
         <div class="about-row">
-            <div class="about-col">
+            <div class="about-col" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                 <div class="avatar">
                     <img src="./images/photo-1507003211169-0a1dd7228f2d.jpg" alt="">
                 </div>
@@ -187,22 +191,27 @@
             <div class="about-col">
                 <h2>about me</h2>
 
-                <p>I'm a full-stack developer and designer with over 8 years of experience building digital products
-                    that people love.
-                    Based in San Francisco, I specialize in creating clean, performant web applications using modern
-                    technologies.</p>
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1700">
+                    <p>I'm a full-stack developer and designer with
+                        over 8 years of experience building digital products
+                        that people love.
+                        Based in San Francisco, I specialize in creating clean, performant web applications using modern
+                        technologies.</p>
 
-                <p>My journey started with a fascination for the intersection of design and technology. Today, I bring
-                    that same curiosity
-                    to every project, whether it's crafting pixel-perfect interfaces, architecting scalable backends, or
-                    designing intuitive
-                    user experiences.</p>
+                    <p>My journey started with a fascination for the intersection of design and technology. Today, I
+                        bring
+                        that same curiosity
+                        to every project, whether it's crafting pixel-perfect interfaces, architecting scalable
+                        backends, or
+                        designing intuitive
+                        user experiences.</p>
 
-                <p>When I'm not coding, you'll find me contributing to open-source projects, mentoring aspiring
-                    developers, or exploring
-                    the latest design trends.</p>
+                    <p>When I'm not coding, you'll find me contributing to open-source projects, mentoring aspiring
+                        developers, or exploring
+                        the latest design trends.</p>
+                </div>
 
-                <div class="about-stats-row">
+                <div class="about-stats-row" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1800">
                     <span class="stats-count">
                         <h2>8+</h2>
                         <p>years of experince</p>
@@ -217,8 +226,8 @@
                     </span>
                 </div>
 
-                <button><a href="" class="btn"> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                fill="currentColor">
+                <button data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1800"><a href="" class="btn">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path
                                     d="M13 12H16L12 16L8 12H11V8H13V12ZM15 4H5V20H19V8H15V4ZM3 2.9918C3 2.44405 3.44749 2 3.9985 2H16L20.9997 7L21 20.9925C21 21.5489 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5447 3 21.0082V2.9918Z">
                                 </path>
@@ -230,14 +239,14 @@
 
     <!-- expertise-section -->
     <section class="expertise-section" id="skills">
-        <div class="heading">
+        <div class="heading" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
             <em>Skills</em>
             <h2>My Expertise</h2>
             <p>A versatile skill set spanning frontend development, backend engineering, and design.</p>
         </div>
 
         <div class="expertise-row">
-            <div class="expertise-card">
+            <div class="expertise-card" data-aos="fade-up" data-aos-duration="1600">
                 <span><a href="#" class="expertise-icon"><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 576 512">
                             <path
@@ -255,7 +264,7 @@
                 </div>
             </div>
 
-            <div class="expertise-card">
+            <div class="expertise-card" data-aos="fade-up"  data-aos-duration="1600">
                 <span><a href="#" class="expertise-icon"><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512">
                             <path
@@ -273,7 +282,7 @@
                 </div>
             </div>
 
-            <div class="expertise-card">
+            <div class="expertise-card" data-aos="fade-up" data-aos-duration="1600">
                 <span><a href="#" class="expertise-icon"><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512">
                             <path
@@ -296,14 +305,14 @@
 
     <!-- projects-section -->
     <section class="projects" id="projects">
-        <div class="heading">
+        <div class="heading" data-aos="fade-up" data-aos-duration="1500">
             <em>Projects</em>
             <h2>Featured Work</h2>
             <p>A selection of projects that showcase my approach to design and development.</p>
         </div>
 
         <div class="project-row">
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1600">
 
                 <div class="design">Web Application</div>
 
@@ -332,7 +341,7 @@
                                 </svg></span></a></span>
                 </div>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1600">
 
                 <div class="design">UI/UX Design</div>
 
@@ -360,7 +369,7 @@
                                 </svg></span></a></span>
                 </div>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1600">
 
                 <div class="design">Digital Visualization</div>
 
@@ -388,7 +397,7 @@
                                 </svg></span></a></span>
                 </div>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1600">
                 <div class="design">Mobile Application</div>
                 <div class="project-img">
                     <img src="./images/project-4.jpg" alt="">
@@ -421,14 +430,14 @@
 
     <!-- career-journey -->
     <section class="career-journey" id="experience">
-        <div class="heading">
+        <div class="heading" data-aos="fade-up" data-aos-duration="1500">
             <em>Experience</em>
             <h2>Career Journey</h2>
             <p>A timeline of my professional growth and the companies I have contributed to.</p>
         </div>
 
         <div class="career-stage">
-            <div class="card left">
+            <div class="card left" data-aos="fade-up" data-aos-duration="1600">
                 <div class="contents">
                     <em>2022 - Present</em>
                     <h2>Senior Developer</h2>
@@ -469,7 +478,7 @@
                 </div>
             </div>
 
-            <div class="card right">
+            <div class="card right" data-aos="fade-up" data-aos-duration="1600">
                 <div class="contents right">
                     <em>2020 - 2022</em>
                     <h2>Full-stack Developer</h2>
@@ -509,7 +518,7 @@
                 </div>
             </div>
 
-            <div class="card left">
+            <div class="card left" data-aos="fade-up" data-aos-duration="1600">
                 <div class="contents">
                     <em>2018 - 2020</em>
                     <h2>Frontend Developer</h2>
@@ -548,7 +557,7 @@
                 </div>
             </div>
 
-            <div class="card right">
+            <div class="card right" data-aos="fade-up" data-aos-duration="1600">
                 <div class="contents right">
                     <em>2016 - 2018</em>
                     <h2>Junior Developer</h2>
@@ -593,13 +602,13 @@
 
     <!-- feedback-section -->
     <section class="feedback-section">
-        <div class="heading">
+        <div class="heading" data-aos="fade-up" data-aos-duration="1500">
             <em>Testimonials</em>
             <h2>What Clients Say</h2>
             <p>Feedback from people I have had the pleasure of working with.</p>
         </div>
 
-        <div class="feedback-row">
+        <div class="feedback-row" data-aos="fade-up" data-aos-duration="1600">
             <div class="feedback-card">
                 <div class="svg-icons">
                     <span>
@@ -884,14 +893,14 @@
 
     <!-- FAQ-section -->
     <section class="FAQ-section">
-        <div class="heading">
+        <div class="heading" data-aos="fade-up" data-aos-duration="1500">
             <em>FAQ</em>
             <h2>Frequently Asked Questions</h2>
             <p>Find answers to common questions about my services, process, and availability.</p>
         </div>
 
         <div class="question-row">
-            <div class="question-col">
+            <div class="question-col" data-aos="fade-up" data-aos-duration="1600">
                 <div class="FAQ">
                     <span class="h2">What is your availability for new projects?</span>
                     <span class="plus-icon"><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
@@ -904,7 +913,7 @@
                 <!-- <p>I typically take on 2-3 projects at a time to ensure dedicated attention. Current availability is 3-4 weeks out. For
                     urgent projects, I can sometimes accommodate tighter timelines — reach out to discuss.</p> -->
             </div>
-            <div class="question-col">
+            <div class="question-col" data-aos="fade-up" data-aos-duration="1600">
                 <div class="FAQ">
                     <span class="h2">What does your process look like?</span>
                     <span class="plus-icon"><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
@@ -916,7 +925,7 @@
                 <!-- <p>I follow a structured 4-phase approach: Discovery (requirements and research), Design (wireframes and prototypes),
                 Development (coding and testing), and Delivery (deployment and handoff). You're involved at every stage.</p> -->
             </div>
-            <div class="question-col">
+            <div class="question-col" data-aos="fade-up" data-aos-duration="1600">
                 <div class="FAQ">
                     <span class="h2">How do you handle pricing?</span>
                     <span class="plus-icon"><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
@@ -928,7 +937,7 @@
                 <!-- <p>I offer project-based pricing tailored to scope and complexity. After our initial consultation, I provide a detailed
                 proposal with clear deliverables, timeline, and cost breakdown. No hidden fees or surprises.</p> -->
             </div>
-            <div class="question-col">
+            <div class="question-col" data-aos="fade-up" data-aos-duration="1600">
                 <div class="FAQ">
                     <span class="h2">What technologies do you work with?</span>
                     <span class="plus-icon"><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
@@ -940,7 +949,7 @@
                 <!-- <p>My core stack is React, TypeScript, Node.js, and Tailwind CSS. I also work with Next.js, Vue.js, PostgreSQL, and various
                 cloud platforms. I choose the best tools for each project's specific needs.</p> -->
             </div>
-            <div class="question-col">
+            <div class="question-col" data-aos="fade-up" data-aos-duration="1600">
                 <div class="FAQ">
                     <span class="h2">Do you offer ongoing maintenance?</span>
                     <span class="plus-icon"><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
@@ -958,14 +967,14 @@
 
     <!-- work-section -->
     <section class="work-section" id="hire me">
-        <div class="heading">
+        <div class="heading" data-aos="fade-up" data-aos-duration="1500">
             <h2>Let's Work Together</h2>
             <p class="typing">Have a project in mind or just want to chat? I'd love to hear from you. Send me a message
                 and I'll get back to you
                 within 24 hours.</p>
         </div>
 
-        <form>
+        <form data-aos="fade-up" data-aos-duration="1600">
             <div class="first-col">
                 <span class="input-box">
                     <label for="name">Name</label>
@@ -996,7 +1005,7 @@
 
         </form>
 
-        <div class="form-footer">
+        <div class="form-footer" data-aos="fade-up" data-aos-duration="1600">
             <span><a href="#" class="footer-email"><span><svg fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512">
                             <path
@@ -1076,7 +1085,13 @@
     </footer>
     <!-- end -->
 
+    <!-- JAVASCRIPT -->
     <script src="intro.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
