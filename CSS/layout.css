@@ -126,12 +126,12 @@
 
     .navbar {
         position: fixed;
-        top: -900%;
+        top: -1900%;
         left: 0;
         width: 100%;
         transition: 0.5s;
         background: oklch(100% 0.00011 271.152 / 0.664);
-        height: 100vh;
+        height: 90vh;
 
         .nav-menu {
             margin: 35px 50px 0px 20px;
